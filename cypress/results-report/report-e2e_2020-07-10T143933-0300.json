@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-10T17:39:13.335Z",
+    "end": "2020-07-10T17:39:33.874Z",
+    "duration": 20539,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e8045758-2a97-4d5f-8329-82b8f2c0358d",
+      "title": "",
+      "fullFile": "cypress/integration/adminEcommerce/Categories/addEmail.spec.js",
+      "file": "cypress/integration/adminEcommerce/Categories/addEmail.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2358728b-1f9b-40bc-8d31-37cd6d25bdb2",
+          "title": "Add um novo Email",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "",
+              "fullTitle": "Add um novo Email ",
+              "timedOut": null,
+              "duration": 16547,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e36e3ff6-5667-41f5-97c2-3e34723a7097",
+              "parentUUID": "2358728b-1f9b-40bc-8d31-37cd6d25bdb2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e36e3ff6-5667-41f5-97c2-3e34723a7097"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16547,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report-e2e",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.0"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "timestamp": true,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/results-report",
+        "reportFilename": "report-e2e",
+        "reportTitle": "Dashboard - Testes E2E",
+        "reportPageTitle": "Dashboard - Testes E2E"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-10T17:40:27.017Z",
+    "end": "2020-07-10T17:40:27.017Z",
+    "duration": 54415,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e8045758-2a97-4d5f-8329-82b8f2c0358d",
+      "title": "",
+      "fullFile": "cypress/integration/adminEcommerce/Categories/addEmail.spec.js",
+      "file": "cypress/integration/adminEcommerce/Categories/addEmail.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2358728b-1f9b-40bc-8d31-37cd6d25bdb2",
+          "title": "Add um novo Email",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "",
+              "fullTitle": "Add um novo Email ",
+              "timedOut": null,
+              "duration": 16547,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e36e3ff6-5667-41f5-97c2-3e34723a7097",
+              "parentUUID": "2358728b-1f9b-40bc-8d31-37cd6d25bdb2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e36e3ff6-5667-41f5-97c2-3e34723a7097"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16547,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "5c4a19c9-c4c9-440f-a5f6-57df612452da",
+      "title": "",
+      "fullFile": "cypress/integration/adminEcommerce/Categories/searchCategories.spec.js",
+      "file": "cypress/integration/adminEcommerce/Categories/searchCategories.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "daac0a67-f800-4060-9964-e0fbd04d7627",
+          "title": "Buscar uma Categoria no Ecommerce Admin",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Pega a quantidade de items do Catalog>>Category",
+              "fullTitle": "Buscar uma Categoria no Ecommerce Admin Pega a quantidade de items do Catalog>>Category",
+              "timedOut": null,
+              "duration": 21932,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.ContaQtdDeItems();",
+              "err": {},
+              "uuid": "4aca1c4a-ef27-49a8-a859-1f504df79d29",
+              "parentUUID": "daac0a67-f800-4060-9964-e0fbd04d7627",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Buscar Categorias:",
+              "fullTitle": "Buscar uma Categoria no Ecommerce Admin Buscar Categorias:",
+              "timedOut": null,
+              "duration": 987,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.BuscaCategoria('Computers');",
+              "err": {},
+              "uuid": "01b19034-da41-40f3-96a1-28bdde57a129",
+              "parentUUID": "daac0a67-f800-4060-9964-e0fbd04d7627",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Logout",
+              "fullTitle": "Buscar uma Categoria no Ecommerce Admin Logout",
+              "timedOut": null,
+              "duration": 3108,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.logout();",
+              "err": {},
+              "uuid": "e6599f3d-a2a6-4619-a254-43143ad978ac",
+              "parentUUID": "daac0a67-f800-4060-9964-e0fbd04d7627",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4aca1c4a-ef27-49a8-a859-1f504df79d29",
+            "01b19034-da41-40f3-96a1-28bdde57a129",
+            "e6599f3d-a2a6-4619-a254-43143ad978ac"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 26027,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "110e77ca-1167-4867-adb8-2d17ecf7413d",
+      "title": "",
+      "fullFile": "cypress/integration/adminEcommerce/Configuration/addEmail.spec.js",
+      "file": "cypress/integration/adminEcommerce/Configuration/addEmail.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7c39fe8d-9d8f-44e0-be89-2eb5159f61dd",
+          "title": "Add um novo Email",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "",
+              "fullTitle": "Add um novo Email ",
+              "timedOut": null,
+              "duration": 11841,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "8bee5469-5484-49eb-be03-319d27a880e1",
+              "parentUUID": "7c39fe8d-9d8f-44e0-be89-2eb5159f61dd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8bee5469-5484-49eb-be03-319d27a880e1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11841,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report-e2e",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.0"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "timestamp": true,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/results-report",
+        "reportFilename": "report-e2e",
+        "reportTitle": "Dashboard - Testes E2E",
+        "reportPageTitle": "Dashboard - Testes E2E"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

@@ -4,20 +4,20 @@
     "pageLoadTimeout": 60000,
     "viewportWidth": 1400,
     "viewportHeight": 1000,
-
+    "videoCompression": false,
     "env": {
         "host": "https://admin-demo.nopcommerce.com/"
     },
 
     "reporter": "mochawesome",
     "reporterOptions": {
-        "reportDir": "cypress/results-report",
-        "overwrite": true,
+        "overwrite": false,
         "timestamp": true,
-        "html": true,
+        "html": false,
         "json": true,
-        "reportTitle": "Blade Dashboard - Testes E2E",
-        "reportPageTitle": "Blade Dashboard - Testes E2E",
-        "reportFilename": "e2e-blade"
+        "reportDir": "cypress/results-report",
+        "reportFilename": "report-e2e",
+        "reportTitle": "Dashboard - Testes E2E",
+        "reportPageTitle": "Dashboard - Testes E2E"
     }
 }

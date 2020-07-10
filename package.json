@@ -4,19 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "delete:reports": "rm -rf cypress/results-report/* || true",
-    "prereport": "npm run delete:reports",
-    "report": "cypress run --spec ",
-    "e2e": "cypress run --spec \"cypress/integration/adminEcommerce/Categories/searchCategories.spec.js\"",
-    "e2e:dashboard": "cypress run --spec \"cypress/integration/adminEcommerce/Categories/searchCategories.spec.js\" --record --key f6aff140-e33e-4603-b70b-38f6c5e88a3b"
+    "clean_json": "rm cypress/results-report/reportResult.json",
+    "merge_reports": "npx mochawesome-merge cypress/results-report/*.json > cypress/results-report/reportResult.json",
+    "generate_mochawesome_report": "npx marge ./cypress/results-report/reportResult.json --reportDir ./cypress/results-report/ --inline",
+    "e2e_mochawesome": "npm run clean_json; cypress run; npm run merge_reports; sleep 5; npm run generate_mochawesome_report"
   },
   "author": "Rodrigo p fragoso",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.3.0",
-    "mocha": "^7.1.1",
+    "cypress": "^4.10.0",
+    "mocha": "^7.2.0",
     "mochawesome": "^6.1.0",
-    "mochawesome-merge": "^4.0.3",
+    "mochawesome-merge": "^4.1.0",
     "mochawesome-report-generator": "^5.1.0"
   },
   "dependencies": {}

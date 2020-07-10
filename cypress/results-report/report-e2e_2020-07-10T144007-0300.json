@@ -1,14 +1,14 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 2,
-    "passes": 2,
+    "tests": 3,
+    "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2020-04-16T18:21:34.740Z",
-    "end": "2020-04-16T18:21:57.998Z",
-    "duration": 23258,
-    "testsRegistered": 2,
+    "start": "2020-07-10T17:39:37.124Z",
+    "end": "2020-07-10T17:40:07.043Z",
+    "duration": 29919,
+    "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,16 +18,16 @@
   },
   "results": [
     {
-      "uuid": "f4c6fa18-ed6a-448a-be65-c93392154950",
+      "uuid": "5c4a19c9-c4c9-440f-a5f6-57df612452da",
       "title": "",
-      "fullFile": "cypress\\integration\\adminEcommerce\\Categories\\searchCategories.spec.js",
-      "file": "cypress\\integration\\adminEcommerce\\Categories\\searchCategories.spec.js",
+      "fullFile": "cypress/integration/adminEcommerce/Categories/searchCategories.spec.js",
+      "file": "cypress/integration/adminEcommerce/Categories/searchCategories.spec.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "25f7a6aa-17e3-402f-9bf3-2079e8910ee5",
+          "uuid": "daac0a67-f800-4060-9964-e0fbd04d7627",
           "title": "Buscar uma Categoria no Ecommerce Admin",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Pega a quantidade de items do Catalog>>Category",
               "fullTitle": "Buscar uma Categoria no Ecommerce Admin Pega a quantidade de items do Catalog>>Category",
               "timedOut": null,
-              "duration": 16832,
+              "duration": 21932,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.ContaQtdDeItems();",
               "err": {},
-              "uuid": "9d28ebd5-7061-4f72-bfd8-901266cb0ac4",
-              "parentUUID": "25f7a6aa-17e3-402f-9bf3-2079e8910ee5",
+              "uuid": "4aca1c4a-ef27-49a8-a859-1f504df79d29",
+              "parentUUID": "daac0a67-f800-4060-9964-e0fbd04d7627",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Buscar Categorias:",
               "fullTitle": "Buscar uma Categoria no Ecommerce Admin Buscar Categorias:",
               "timedOut": null,
-              "duration": 638,
+              "duration": 987,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,40 @@
               "context": null,
               "code": "cy.BuscaCategoria('Computers');",
               "err": {},
-              "uuid": "112cbb1d-72fa-4063-9520-8c06f27396a6",
-              "parentUUID": "25f7a6aa-17e3-402f-9bf3-2079e8910ee5",
+              "uuid": "01b19034-da41-40f3-96a1-28bdde57a129",
+              "parentUUID": "daac0a67-f800-4060-9964-e0fbd04d7627",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Logout",
+              "fullTitle": "Buscar uma Categoria no Ecommerce Admin Logout",
+              "timedOut": null,
+              "duration": 3108,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.logout();",
+              "err": {},
+              "uuid": "e6599f3d-a2a6-4619-a254-43143ad978ac",
+              "parentUUID": "daac0a67-f800-4060-9964-e0fbd04d7627",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9d28ebd5-7061-4f72-bfd8-901266cb0ac4",
-            "112cbb1d-72fa-4063-9520-8c06f27396a6"
+            "4aca1c4a-ef27-49a8-a859-1f504df79d29",
+            "01b19034-da41-40f3-96a1-28bdde57a129",
+            "e6599f3d-a2a6-4619-a254-43143ad978ac"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 17470,
+          "duration": 26027,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -97,13 +116,13 @@
   ],
   "meta": {
     "mocha": {
-      "version": "7.1.1"
+      "version": "7.0.1"
     },
     "mochawesome": {
       "options": {
         "quiet": false,
-        "reportFilename": "e2e-blade",
-        "saveHtml": true,
+        "reportFilename": "report-e2e",
+        "saveHtml": false,
         "saveJson": true,
         "consoleReporter": "spec",
         "useInlineDiffs": false,
@@ -113,14 +132,14 @@
     },
     "marge": {
       "options": {
-        "reportDir": "cypress/results-report",
-        "overwrite": true,
+        "overwrite": false,
         "timestamp": true,
-        "html": true,
+        "html": false,
         "json": true,
-        "reportTitle": "Blade Dashboard - Testes E2E",
-        "reportPageTitle": "Blade Dashboard - Testes E2E",
-        "reportFilename": "e2e-blade"
+        "reportDir": "cypress/results-report",
+        "reportFilename": "report-e2e",
+        "reportTitle": "Dashboard - Testes E2E",
+        "reportPageTitle": "Dashboard - Testes E2E"
       },
       "version": "5.1.0"
     }
