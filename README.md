@@ -2,7 +2,7 @@
 
 #### Install with npm:
 ```javascript
-npm install mochawesome-merge --save-dev</code>
+npm install mochawesome-merge --save-dev
 ```
 
 #### Generating HTML
